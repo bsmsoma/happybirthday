@@ -8,7 +8,8 @@ body {
     font-family: "PressStartK-EX89";
     color: white;
     background-color: black;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
@@ -174,10 +175,10 @@ button {
 }
 @media only screen and (max-width: 414px) {
     .cake-container {
-        width: 414px;
+        width: 100vw;
     }
     .titles {
-        width: 414px;
+        width: 300px;
         height: 100px;
         text-align: center;
         top: 50px;
@@ -188,10 +189,10 @@ button {
         text-align: center;
     }
     #cake {
-        top: -150px;
+        top: -190px;
     }
     .candle {
-        top: 250px;
+        top: 240px;
     }
     .text {
         top: -150px;
@@ -203,7 +204,7 @@ button {
         bottom: -10px;
     }
     button {
-        top: 170%;
+        top: 140%;
     }
     
 }
