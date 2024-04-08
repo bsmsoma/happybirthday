@@ -173,7 +173,7 @@ button {
     border: 1px solid transparent;
     cursor: pointer;
 }
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 430px) {
     .cake-container {
         width: 100vw;
     }
